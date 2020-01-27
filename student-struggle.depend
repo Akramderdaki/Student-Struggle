@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\decor\decor.cpp
+	"Decor.h"
+	<cassert>
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\decor\decor.h
+	<string>
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\decor\mur.cpp
+	"Mur.h"
+	<cassert>
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\decor\mur.h
+	"Decor.h"
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\decor\piece.cpp
+	"Piece.h"
+	<cassert>
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\decor\piece.h
+	"Decor.h"
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\decor\piege.cpp
+	"Piege.h"
+	<cassert>
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\decor\piege.h
+	"Decor.h"
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\decor\sol.cpp
+	"Sol.h"
+	<cassert>
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\decor\sol.h
+	"Decor.h"
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\jeu.cpp
+	"Jeu.h"
+	<iostream>
+	<cassert>
+	<cstdlib>
+	<fstream>
+	<sstream>
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\jeu.h
+	"Niveau.h"
+	"Personnage.h"
+	"Vendeur/Vendeur.h"
+	<vector>
+	<string>
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\niveau.h
+	"Decor/Piece.h"
+	"Decor/Piege.h"
+	"Decor/Mur.h"
+	"Decor/Sol.h"
+	<string>
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\personnage.h
+	"Niveau.h"
+	<string>
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\vendeur\vendeur.h
+	<vector>
+	"Equipement.h"
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\vendeur\equipement.h
+	<string>
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\niveau.cpp
+	"Niveau.h"
+	<cassert>
+	<cstdlib>
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\personnage.cpp
+	"Personnage.h"
+	<cassert>
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\vendeur\equipement.cpp
+	"Equipement.h"
+	<cassert>
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\core\vendeur\vendeur.cpp
+	"Vendeur.h"
+	<cassert>
+
+1553023438 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\sdl2\image.cpp
+	"Image.h"
+	<cassert>
+	<stdlib.h>
+	<iostream>
+
+1553023450 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\sdl2\image.h
+	<SDL2\SDL.h>
+	<SDL2\SDL_ttf.h>
+	<SDL2\SDL_image.h>
+	<SDL2\SDL_mixer.h>
+
+1553023157 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\sdl2\main_sdl.cpp
+	"Image.h"
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\sdl2\menu.cpp
+	"Menu.h"
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\sdl2\menu.h
+	<string>
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\sdl2\sdljeu.cpp
+	"SDLjeu.h"
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\sdl2\sdljeu.h
+	<string>
+	<vector>
+
+1553023166 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\txt\main_txt.cpp
+	"TXTwin.h"
+	"TXTjeu.h"
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\txt\txtwin.h
+
+1553000304 d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\txt\txtjeu.h
+	"../core/Jeu.h"
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\txt\txtjeu.cpp
+	"TXTjeu.h"
+	"TXTwin.h"
+	<iostream>
+	<windows.h>
+	<unistd.h>
+
+1553000304 source:d:\utilisateurs\dagla\desktop\cours\lyon 1 math info\cours\s4\lifap4\student-struggle\src\txt\txtwin.cpp
+	"TXTwin.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+

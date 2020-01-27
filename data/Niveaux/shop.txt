@@ -1,0 +1,22 @@
+NIVEAU
+0
+Cafetaria
+6,21
+0,0
+4,1
+
+PIEGES
+0
+
+MAP
+#####################
+#*****************#s#
+#*****************#*#
+#*******************#
+#*******************#
+#####################
+
+
+/!\ Non lu par le système /!\ 
+Aide options pièges : 
+numero_Piege : id direction degats visibilite vitesse rebondi delai

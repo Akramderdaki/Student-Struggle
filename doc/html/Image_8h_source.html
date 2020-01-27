@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Student Struggle:  Fichier source de src/sdl2/Image.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Student Struggle
+   </div>
+   <div id="projectbrief">Projet LIFAP4 - L2 Informatique Lyon1</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_8d1e9cce9dcfda87c581b5abec6517a4.html">sdl2</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Image.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Image_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef IMAGE_H</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define IMAGE_H</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;SDL.h&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;SDL_image.h&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classImage.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="classImage.html">Image</a></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classImage.html#ac1d365143f4f5ee59f318977ad6d798b">   17</a></span>&#160;        SDL_Surface * <a class="code" href="classImage.html#ac1d365143f4f5ee59f318977ad6d798b">surface</a>; </div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classImage.html#a4f44588a7d341e02dae82e2de94dfad6">   18</a></span>&#160;        SDL_Texture * <a class="code" href="classImage.html#a4f44588a7d341e02dae82e2de94dfad6">texture</a>; </div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classImage.html#a5a1c5528c889b0438bc2dc0c0ee94dbe">   19</a></span>&#160;        <span class="keywordtype">int</span> h,<a class="code" href="classImage.html#a5a1c5528c889b0438bc2dc0c0ee94dbe">w</a>; </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="classImage.html#a58edd1c45b4faeb5f789b0d036d02313">Image</a> ();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="classImage.html#a0294f63700543e11c0f0da85601c7ae5">~Image</a> ();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classImage.html#aea2911cb782cfcfe06963591f39ac752">chargerFichier</a> (SDL_Renderer * ren, <span class="keyword">const</span> <span class="keywordtype">char</span>* fichier, <span class="keywordtype">int</span> height, <span class="keywordtype">int</span> weight=-1);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classImage.html#a2d675df4af2a6b5c1881a372d89e9bb9">charger</a> (SDL_Renderer * ren);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classImage.html#a58a73a9157e152531cc0d36c227bdbd1">afficher</a> (SDL_Renderer * ren, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        SDL_Texture * <a class="code" href="classImage.html#ae9e27e310b4322d04366f2882f3a4242">getTexture</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classImage.html#a833f5d3b4b9f905320c6dffcc9b84b95">setSurface</a>(SDL_Surface * surf);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classImage.html#a97396742e69bc4e96b24f079ee06c8c9">getW</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classImage.html#a8bd5ab27625a24c7d87a5ee95782585d">setW</a>(<span class="keywordtype">int</span> weight);</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classImage.html#a4600dca317f22d185d8d5d3b50b228a0">getH</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classImage.html#a59d3366adfe40d3866dfe8c65d8141ce">setH</a>(<span class="keywordtype">int</span> height);</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;};</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#endif // IMAGE_H</span></div><div class="ttc" id="classImage_html_ae9e27e310b4322d04366f2882f3a4242"><div class="ttname"><a href="classImage.html#ae9e27e310b4322d04366f2882f3a4242">Image::getTexture</a></div><div class="ttdeci">SDL_Texture * getTexture() const</div><div class="ttdoc">accesseur de la texture d&amp;#39;une image </div><div class="ttdef"><b>Definition:</b> Image.cpp:73</div></div>
+<div class="ttc" id="classImage_html_a0294f63700543e11c0f0da85601c7ae5"><div class="ttname"><a href="classImage.html#a0294f63700543e11c0f0da85601c7ae5">Image::~Image</a></div><div class="ttdeci">~Image()</div><div class="ttdoc">destructeur par defaut </div><div class="ttdef"><b>Definition:</b> Image.cpp:13</div></div>
+<div class="ttc" id="classImage_html_a2d675df4af2a6b5c1881a372d89e9bb9"><div class="ttname"><a href="classImage.html#a2d675df4af2a6b5c1881a372d89e9bb9">Image::charger</a></div><div class="ttdeci">void charger(SDL_Renderer *ren)</div><div class="ttdoc">cree une texture dans le rendu depuis la surface </div><div class="ttdef"><b>Definition:</b> Image.cpp:46</div></div>
+<div class="ttc" id="classImage_html_aea2911cb782cfcfe06963591f39ac752"><div class="ttname"><a href="classImage.html#aea2911cb782cfcfe06963591f39ac752">Image::chargerFichier</a></div><div class="ttdeci">void chargerFichier(SDL_Renderer *ren, const char *fichier, int height, int weight=-1)</div><div class="ttdoc">charge une image en une texture dans un rendu depuis un fichier </div><div class="ttdef"><b>Definition:</b> Image.cpp:15</div></div>
+<div class="ttc" id="classImage_html_a5a1c5528c889b0438bc2dc0c0ee94dbe"><div class="ttname"><a href="classImage.html#a5a1c5528c889b0438bc2dc0c0ee94dbe">Image::w</a></div><div class="ttdeci">int w</div><div class="ttdef"><b>Definition:</b> Image.h:19</div></div>
+<div class="ttc" id="classImage_html_a59d3366adfe40d3866dfe8c65d8141ce"><div class="ttname"><a href="classImage.html#a59d3366adfe40d3866dfe8c65d8141ce">Image::setH</a></div><div class="ttdeci">void setH(int height)</div><div class="ttdoc">mutateur de la hauteur de l&amp;#39;image </div><div class="ttdef"><b>Definition:</b> Image.cpp:79</div></div>
+<div class="ttc" id="classImage_html_a4f44588a7d341e02dae82e2de94dfad6"><div class="ttname"><a href="classImage.html#a4f44588a7d341e02dae82e2de94dfad6">Image::texture</a></div><div class="ttdeci">SDL_Texture * texture</div><div class="ttdef"><b>Definition:</b> Image.h:18</div></div>
+<div class="ttc" id="classImage_html_a58a73a9157e152531cc0d36c227bdbd1"><div class="ttname"><a href="classImage.html#a58a73a9157e152531cc0d36c227bdbd1">Image::afficher</a></div><div class="ttdeci">void afficher(SDL_Renderer *ren, int x, int y)</div><div class="ttdoc">permet d&amp;#39;afficher une texture aux coordonnees x et y dans un rendu donne </div><div class="ttdef"><b>Definition:</b> Image.cpp:62</div></div>
+<div class="ttc" id="classImage_html_a8bd5ab27625a24c7d87a5ee95782585d"><div class="ttname"><a href="classImage.html#a8bd5ab27625a24c7d87a5ee95782585d">Image::setW</a></div><div class="ttdeci">void setW(int weight)</div><div class="ttdoc">mutateur de la largeur d&amp;#39;une image </div><div class="ttdef"><b>Definition:</b> Image.cpp:83</div></div>
+<div class="ttc" id="classImage_html_a97396742e69bc4e96b24f079ee06c8c9"><div class="ttname"><a href="classImage.html#a97396742e69bc4e96b24f079ee06c8c9">Image::getW</a></div><div class="ttdeci">int getW() const</div><div class="ttdoc">accesseur de la largeur d&amp;#39;une image </div><div class="ttdef"><b>Definition:</b> Image.cpp:81</div></div>
+<div class="ttc" id="classImage_html"><div class="ttname"><a href="classImage.html">Image</a></div><div class="ttdef"><b>Definition:</b> Image.h:14</div></div>
+<div class="ttc" id="classImage_html_ac1d365143f4f5ee59f318977ad6d798b"><div class="ttname"><a href="classImage.html#ac1d365143f4f5ee59f318977ad6d798b">Image::surface</a></div><div class="ttdeci">SDL_Surface * surface</div><div class="ttdef"><b>Definition:</b> Image.h:17</div></div>
+<div class="ttc" id="classImage_html_a58edd1c45b4faeb5f789b0d036d02313"><div class="ttname"><a href="classImage.html#a58edd1c45b4faeb5f789b0d036d02313">Image::Image</a></div><div class="ttdeci">Image()</div><div class="ttdoc">constructeur par defaut </div><div class="ttdef"><b>Definition:</b> Image.cpp:7</div></div>
+<div class="ttc" id="classImage_html_a833f5d3b4b9f905320c6dffcc9b84b95"><div class="ttname"><a href="classImage.html#a833f5d3b4b9f905320c6dffcc9b84b95">Image::setSurface</a></div><div class="ttdeci">void setSurface(SDL_Surface *surf)</div><div class="ttdoc">mutateur de la surface d&amp;#39;une image </div><div class="ttdef"><b>Definition:</b> Image.cpp:75</div></div>
+<div class="ttc" id="classImage_html_a4600dca317f22d185d8d5d3b50b228a0"><div class="ttname"><a href="classImage.html#a4600dca317f22d185d8d5d3b50b228a0">Image::getH</a></div><div class="ttdeci">int getH() const</div><div class="ttdoc">accesseur de la hauteur de l&amp;#39;image </div><div class="ttdef"><b>Definition:</b> Image.cpp:77</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

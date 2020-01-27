@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="student-struggle" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<MakeCommands>
+			<Build command="$make -f $makefile" />
+			<CompileFile command="$make -f $makefile" />
+			<Clean command="$make -f $makefile clean" />
+			<DistClean command="$make -f $makefile distclean$target" />
+			<AskRebuildNeeded command="$make -q -f $makefile $target" />
+			<SilentBuild command="$make -f $makefile &gt; $(CMD_NULL)" />
+		</MakeCommands>
+		<Build>
+			<Target title="jeuTXT">
+				<Option output="bin/txt/student-struggle_txt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<MakeCommands>
+					<Build command="$make -f $makefile jeu_txt" />
+					<CompileFile command="$make -f $makefile" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile jeu_txt &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="jeuSDL">
+				<Option output="bin/sdl2/student-struggle_sdl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make -f $makefile jeu_sdl" />
+					<CompileFile command="$make -f $makefile" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile jeu_sdl &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="jeuTEST">
+				<Option output="bin/jeu_test" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command="$make -f $makefile jeu_test" />
+					<CompileFile command="$make -f $makefile" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile jeu_test &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Makefile">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Decor/Decor.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Decor/Decor.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Decor/Mur.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Decor/Mur.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Decor/Piece.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Decor/Piece.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Decor/Sol.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Decor/Sol.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Decor/Sortie.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Decor/Sortie.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Jeu.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Jeu.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Niveau.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Niveau.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Personnage.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Personnage.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Piege/Piege.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Piege/Piege.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Vendeur/Equipement.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Vendeur/Equipement.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Vendeur/Vendeur.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/core/Vendeur/Vendeur.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/Image.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/Image.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/Menu.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/Menu.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/SDLjeu.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/SDLjeu.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/Shop.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/Shop.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/Timer.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/Timer.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/main_sdl.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/test/main_test.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/txt/TXTjeu.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/txt/TXTjeu.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/txt/TXTwin.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/txt/TXTwin.h">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Unit filename="src/txt/main_txt.cpp">
+			<Option target="jeuTXT" />
+			<Option target="jeuSDL" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

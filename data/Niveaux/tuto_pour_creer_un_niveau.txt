@@ -1,0 +1,27 @@
+NIVEAU
+idNiveau
+nomNiveau
+dimxNiveau , dimyNiveau
+visionPerso , tempsNiveau
+InitPosxPerso , InitPosyPerso
+
+PIEGES
+nbPieges
+numero_Piege : id direction degats visibilite vitesse rebondi delai
+
+MAP
+//Dessin en 2D de la map 
+//# : mur
+//* : sol
+//s : sortie
+//o : piece
+
+
+
+
+/!\ INFOS /!\
+-> Veillez a gardez les entetes (NIVEAU,PIEGES,MAP) qui servent a verifier la bonne lecture du fichier
+-> Si aucun pieges, nbPieges=0 et passez a la suite
+-> le numero de piege commence a 0
+-> Ne rentrez pas plus de 9 types de pieges 
+-> veuillez vous referer a la doc pour connaitre l'utilisation des variables
